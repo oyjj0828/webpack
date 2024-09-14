@@ -7,5 +7,5 @@ const instance=axios.create({
 })
 console.log(instance)
 const input=document.querySelector('input')
-input.type='date'
+input.type='text'  // master
 console.log(process.env.NODE_ENV)
