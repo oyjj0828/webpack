@@ -7,9 +7,5 @@ const instance=axios.create({
 })
 console.log(instance)
 const input=document.querySelector('input')
-<<<<<<< HEAD
-input.type='text'  // master
-=======
-input.type='text' // main
->>>>>>> main
+input.type='select' // main
 console.log(process.env.NODE_ENV)
