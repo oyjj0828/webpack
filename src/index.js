@@ -8,4 +8,5 @@ const instance=axios.create({
 console.log(instance)
 const input=document.querySelector('input')
 input.type='text'  // master
+input.type='select' // main
 console.log(process.env.NODE_ENV)
